@@ -28,4 +28,11 @@ export class AppComponent {
   Submit() {
     console.log(this.form.value);
   }
+
+  data = [
+    { name: 'John Doe', age: 30, city: 'New York' },
+    { name: 'Jane Smith', age: 25, city: 'Los Angeles' },
+    { name: 'Bob Johnson', age: 35, city: 'Chicago' },
+  ];
+  columns = ['name', 'age', 'city'];
 }

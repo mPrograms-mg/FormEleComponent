@@ -9,6 +9,7 @@ import { InputFieldComponent } from './input-field/input-field.component';
 import { RadioButtonComponent } from './radio-button/radio-button.component';
 import { SelectOptionComponent } from './select-option/select-option.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { TableComponent } from './table/table.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     InputFieldComponent,
     RadioButtonComponent,
     SelectOptionComponent,
+    TableComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, ReactiveFormsModule],
   providers: [],

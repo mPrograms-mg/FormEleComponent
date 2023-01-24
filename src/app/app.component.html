@@ -26,6 +26,8 @@
     <app-checkbox [control]="form.controls['checkbox']" [label]="'Agree to terms and conditions'"></app-checkbox>
     <br>
 
+    <app-table [data]="data" [columns]="columns"></app-table>
+
     <button type="submit">Submit</button>
     <!-- <app-button [label]="'Submit'" (clickEvent)="Submit()"></app-button> -->
   </form>
